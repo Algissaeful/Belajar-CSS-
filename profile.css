@@ -1,0 +1,36 @@
+*{
+  margin= 0; /* Mengatur jarak*/
+  padding: 0;/*space antara satu konten dengan konten yang lainnya*/
+  font-family: Courier New; /* mengubah model teks*/
+}
+
+.bg {
+  background-image: url('Background.jpg'); /*menambahkan image pada background*/
+  background-size: cover;/*agar background menyesuaikan ukuran*/
+  height: 120%; /*agar tinggi background menyesuaikan ukuran device*/
+}
+
+.photo {
+  width: 150px;/*mengatur lebar photo*/
+  height: 150px;/*mengatur tinggu*/
+  border-radius: 50%;/*membuat garis di sekitar photo*/
+  border: 5px solid #FFFFFF; /*menambahkan line sekitar photo */
+}
+
+.title {
+  color: #FFFFFF;/*mengubah warna title*/
+  margin: 10px auto; /*Mengatur jarak*/
+  text-align: center; /*untuk meratakan atau meluruskan objek dengan objek lainnya*/
+}
+ 
+ .centerbox {
+   width: 500px;/*mengatur lebar*/
+   border: 1px solid #FFFFFF; /*menambahkan line sekitar photo */
+   margin: 0 auto;/* Mengatur jarak*/
+   padding: 55px;/*space antara satu konten dengan konten yang lainnya*/
+   background-color: rgba(0,0,0,0.5);/*menampilkan effect warna/gambar latar belakang pada photo*/
+   color: white; /*mengubah warna teks menjadi putih*/
+   text-align: center;/*untuk meratakan atau meluruskan objek dengan objek lainnya*/
+ }
+   
+
